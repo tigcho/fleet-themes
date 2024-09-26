@@ -6,10 +6,10 @@ import fleet.kernel.plugins.ContributionScope
 import fleet.kernel.plugins.Plugin
 import fleet.kernel.plugins.PluginScope
 
-class MyThemePlugin : Plugin<Unit> {
+class TangerineDream : Plugin<Unit> {
     companion object : Plugin.Key<Unit>
 
-    override val key: Plugin.Key<Unit> = TangerineDreamPlugin
+    override val key: Plugin.Key<Unit> = TangerineDream
 
     override fun ContributionScope.load(pluginScope: PluginScope) {
         registerTheme(ThemeId(id = "tangerine.dream.dark"))

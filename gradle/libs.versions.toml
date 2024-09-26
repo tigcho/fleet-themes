@@ -1,7 +1,7 @@
 [versions]
-kotlin = "1.9.24"
+kotlin = "1.9.22"
 fleet-sdk = "0.5.236"
-fleet-runtime = "1.38.89"
+fleet-runtime = "1.40.87"
 
 [libraries]
 
