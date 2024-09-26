@@ -1,0 +1,44 @@
+{
+    "meta": {
+        "theme.name": "Tangerine Dream",
+        "theme.kind": "Dark",
+        "theme.version": 1
+    },
+    "colors": {
+        "editor.background": "#FFEDCD",
+        "editor.foreground": "#ADBC8A",
+        "button.primary.background": "#FA9E46",
+        "button.primary.text": "#FFFFFF",
+        "button.secondary.background": "#F9B560",
+        "button.secondary.text": "#FFFFFF",
+        "tab.background.default": "#F1D29A",
+        "tab.indicator": "#64A8A2"
+    },
+    "textAttributes": {
+        "editor.selection": {
+            "backgroundColor": "#FA9E46"
+        },
+        "editor.indentGuide": {
+            "foregroundColor": "#64A8A2",
+            "textDecoration": {
+                "style": "DASHED"
+            }
+        },
+        "problem.error": {
+            "textDecoration": {
+                "color": "#E81237",
+                "style": "SOLID",
+                "type": "UNDERLINE",
+                "thickness": 2.0
+            }
+        }
+    },
+    "palette": {
+      "primary": "#FA9E46",
+      "secondary": "#F9B560",
+      "background": "#FFEDCD",
+      "foreground": "#ADBC8A",
+      "border": "#64A8A2",
+      "highlight": "#F1D29A"
+    }
+}
