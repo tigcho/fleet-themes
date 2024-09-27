@@ -1,94 +1,89 @@
 {
   "meta": {
-    "theme.name": "Tangerine Dream",
+    "theme.name": "Tangerine Dream - Dark",
     "theme.kind": "Dark",
     "theme.version": 1
   },
   "colors": {
-    "border": "#64A8A2",
+      "background.primary": "#1E1F26",
+      "border": "#44475A",
+      "focusOutline": "#FA9E46",
+      "text.primary": "#FFEDCD",
+      "text.secondary": "#F9B560",
+      "text.dimmed": "#F1D29A",
+      "text.error": "#FA9E46",
+      "text.success": "#ADBC8A",
+      "text.warning": "#FA9E46",
 
-    "background.primary": "#1B1B1B",
-    "focusOutline": "#FA9E46",
+      "editor.background": "#1E1F26",
+      "editor.text": "#FFEDCD",
+      "editor.caret.background": "#FA9E46",
+      "editor.selection.background": "#64A8A240",
+      "editor.selection.inactive": "#F1D29A33",
+      "editor.lineNumber.default": "#ADBC8A",
+      "editor.lineNumber.current": "#F9B560",
 
-    "shadow.border": "Black",
-    "shadow.background.small": "#00000033",
-    "shadow.background.medium": "#000000D9",
-    "shadow.background.large": "#000000D9",
+      "button.primary.background.default": "#FA9E46",
+      "button.primary.background.hovered": "#F9B560",
+      "button.primary.text.default": "#1E1F26",
+      "button.secondary.background.default": "#ADBC8A",
+      "button.secondary.text.default": "#1E1F26",
 
-    "text.primary": "#F1D29A",
-    "text.secondary": "#ADBC8A",
-    "text.dimmed": "#6D6A80",
-    "text.disabled": "#646078",
-    "text.error": "#FA9E46",
-    "text.success": "#ADBC8A",
+      "popup.background": "#282A36",
+      "popup.text": "#FFEDCD",
+      "popup.tab.background.default": "#2E2F36",
+      "popup.tab.indicator": "#FA9E46",
 
-    "button.primary.background.default": "#FA9E46",
-    "button.primary.background.hovered": "#F9B560",
-    "button.primary.background.pressed": "#E58A2D",
-    "button.primary.text.default": "#1B1B1B",
+      "tab.background.default": "#1E1F26",
+      "tab.background.selected": "#282A36",
+      "tab.indicator": "#FA9E46",
 
-    "button.secondary.background.default": "#ADBC8A",
-    "button.secondary.background.hovered": "#9DAF74",
-    "button.secondary.background.pressed": "#8C9B61",
-    "button.secondary.text.default": "#1B1B1B",
+      "inputField.background.default": "#2E2F36",
+      "inputField.text.default": "#FFEDCD",
+      "inputField.caret": "#FA9E46",
 
-    "checkbox.icon.default": "#FA9E46",
-    "checkbox.on.background.default": "#ADBC8A",
-    "checkbox.off.border.default": "#64A8A2",
+      "progressBar.determinate.foreground": "#FA9E46",
+      "progressBar.determinate.background": "#2E2F36",
 
-    "editor.background": "#1B1B1B",
-    "editor.text": "#F1D29A",
-    "editor.caret.background": "#FA9E46",
-    "editor.lineNumber.default": "#6D6A80",
-    "editor.lineNumber.current": "#FA9E46",
-    "editor.selection.background": "#64A8A2",
-
-    "link.text.default": "#64A8A2",
-    "link.hovered": "#FA9E46",
-
-    "popup.background": "#1B1B1B",
-    "popup.border": "#64A8A2",
-    "popup.text": "#F1D29A",
-
-    "statusBar.background": "#1B1B1B",
-    "statusBar.text": "#F1D29A",
-
-    "terminal.background": "#1B1B1B",
-    "terminal.text": "#F1D29A",
-    "terminal.caret": "#FA9E46",
-
-    "progressBar.foreground": "#FA9E46",
-    "progressBar.background": "#1B1B1B",
-
-    "tool.background": "#1B1B1B",
-    "tool.text": "#F1D29A",
-
-    "selectionBackground": "#ADBC8A",
-    "selectionForeground": "#1B1B1B",
-
-    "inputField.background": "#3A3A3A",
-    "inputField.text": "#F1D29A",
-    "inputField.border": "#FA9E46",
-
-    "hoverHighlight": "#FFEDCD",
-    "foldIndicator.default": "#64A8A2",
-    "foldIndicator.hovered": "#FA9E46",
-
-    "button.dangerous.background.default": "#E58A2D",
-    "button.dangerous.text.default": "#1B1B1B",
-
-    "icon.background.orange": "#FA9E46",
-    "icon.background.green": "#ADBC8A",
-    "icon.background.blue": "#64A8A2"
+      "statusBar.background": "#1E1F26",
+      "statusBar.text": "#FFEDCD"
+  },
+  "textAttributes": {
+    "editor.text.default": {
+      "foregroundColor": "#FFEDCD"
+    },
+    "editor.selection": {
+      "backgroundColor": "#64A8A240"
+    },
+    "keyword": {
+      "foregroundColor": "#FA9E46"
+    },
+    "comment": {
+      "foregroundColor": "#ADBC8A",
+      "fontStyle": "ITALIC"
+    },
+    "string": {
+      "foregroundColor": "#F9B560"
+    },
+    "number": {
+      "foregroundColor": "#F1D29A"
+    },
+    "functionName": {
+      "foregroundColor": "#64A8A2"
+    },
+    "variable": {
+      "foregroundColor": "#FFEDCD"
+    },
+    "constant": {
+      "foregroundColor": "#FA9E46"
+    }
   },
   "palette": {
-    "Royal Orange": "#FA9E46",
+    "RoyalOrange": "#FA9E46",
     "Rajah": "#F9B560",
     "Caramel": "#F1D29A",
-    "Blanched Almond": "#FFEDCD",
+    "BlanchedAlmond": "#FFEDCD",
     "Sage": "#ADBC8A",
-    "Cadet Blue": "#64A8A2",
-    "Background Dark": "#1B1B1B",
-    "Dim Gray": "#6D6A80"
+    "CadetBlue": "#64A8A2"
   }
 }
