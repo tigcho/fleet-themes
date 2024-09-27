@@ -1,81 +1,94 @@
 {
   "meta": {
-    "theme.name": "Tangerine Dream - Dark",
+    "theme.name": "Tangerine Dream",
     "theme.kind": "Dark",
     "theme.version": 1
   },
   "colors": {
-      "background.primary": "#1E1F26",
-      "border": "#44475A",
-      "focusOutline": "#FA9E46",
-      "text.primary": "#FFEDCD",
-      "text.secondary": "#F9B560",
-      "text.dimmed": "#F1D29A",
-      "text.error": "#FA9E46",
-      "text.success": "#ADBC8A",
-      "text.warning": "#FA9E46",
+    "text.dangerous": "Red",
+    "text.dimmed": "Caramel",
+    "text.disabled": "Sage",
+    "text.error": "RoyalOrange",
+    "text.primary": "BlanchedAlmond",
+    "text.secondary": "Rajah",
+    "text.success": "Sage",
+    "text.warning": "Rajah",
 
-      "editor.background": "#1E1F26",
-      "editor.text": "#FFEDCD",
-      "editor.caret.background": "#FA9E46",
-      "editor.selection.background": "#64A8A240",
-      "editor.selection.inactive": "#F1D29A33",
-      "editor.lineNumber.default": "#ADBC8A",
-      "editor.lineNumber.current": "#F9B560",
+    "focusOutline": "CadetBlue",
 
-      "button.primary.background.default": "#FA9E46",
-      "button.primary.background.hovered": "#F9B560",
-      "button.primary.text.default": "#1E1F26",
-      "button.secondary.background.default": "#ADBC8A",
-      "button.secondary.text.default": "#1E1F26",
+    "banner.text": "BlanchedAlmond",
+    "banner.background.primary": "Caramel",
+    "banner.background.dangerous": "RoyalOrange",
+    "banner.background.warning": "Rajah",
+    "banner.background.positive": "Sage",
+    "banner.border.primary": "CadetBlue",
+    "banner.border.dangerous": "RoyalOrange",
+    "banner.border.warning": "Rajah",
+    "banner.border.positive": "Sage",
+    "banner.border.info": "CadetBlue",
+    "border.focused": "CadetBlue",
 
-      "popup.background": "#282A36",
-      "popup.text": "#FFEDCD",
-      "popup.tab.background.default": "#2E2F36",
-      "popup.tab.indicator": "#FA9E46",
-
-      "tab.background.default": "#1E1F26",
-      "tab.background.selected": "#282A36",
-      "tab.indicator": "#FA9E46",
-
-      "inputField.background.default": "#2E2F36",
-      "inputField.text.default": "#FFEDCD",
-      "inputField.caret": "#FA9E46",
-
-      "progressBar.determinate.foreground": "#FA9E46",
-      "progressBar.determinate.background": "#2E2F36",
-
-      "statusBar.background": "#1E1F26",
-      "statusBar.text": "#FFEDCD"
+    "editor.text": "BlanchedAlmond",
+    "editor.caret.background": "RoyalOrange",
+    "editor.selection.background": "CadetBlue",
+    "editor.selection.inactive": "Caramel",
+    "editor.lineNumber.default": "Sage",
+    "editor.lineNumber.current": "Rajah",
+    "button.primary.text.default": "BlanchedAlmond",
+    "button.primary.background.default": "RoyalOrange",
+    "button.secondary.text.default": "BlanchedAlmond",
+    "button.secondary.background.default": "Sage",
+    "button.primary.background.hovered": "Rajah",
+    "popup.text": "BlanchedAlmond",
+    "popup.tab.indicator": "RoyalOrange",
+    "tab.indicator": "RoyalOrange",
+    "inputField.text.default": "BlanchedAlmond",
+    "inputField.caret": "RoyalOrange",
+    "progressBar.determinate.foreground": "RoyalOrange",
+    "statusBar.text": "BlanchedAlmond",
+    "scrollbar.thumb": "CadetBlue",
+    "link.text": "CadetBlue",
+    "link.hover": "Rajah"
   },
   "textAttributes": {
     "editor.text.default": {
-      "foregroundColor": "#FFEDCD"
+      "foregroundColor": "BlanchedAlmond"
     },
     "editor.selection": {
-      "backgroundColor": "#64A8A240"
+      "backgroundColor": "CadetBlue"
     },
     "keyword": {
-      "foregroundColor": "#FA9E46"
+      "foregroundColor": "RoyalOrange"
     },
     "comment": {
-      "foregroundColor": "#ADBC8A",
-      "fontStyle": "ITALIC"
+      "foregroundColor": "Sage"
     },
     "string": {
-      "foregroundColor": "#F9B560"
+      "foregroundColor": "Rajah"
     },
     "number": {
-      "foregroundColor": "#F1D29A"
+      "foregroundColor": "Caramel"
     },
     "functionName": {
-      "foregroundColor": "#64A8A2"
+      "foregroundColor": "CadetBlue"
     },
     "variable": {
-      "foregroundColor": "#FFEDCD"
+      "foregroundColor": "BlanchedAlmond"
     },
     "constant": {
-      "foregroundColor": "#FA9E46"
+      "foregroundColor": "RoyalOrange"
+    },
+    "class": {
+      "foregroundColor": "CadetBlue"
+    },
+    "operator": {
+      "foregroundColor": "Rajah"
+    },
+    "bracket": {
+      "foregroundColor": "Caramel"
+    },
+    "punctuation": {
+      "foregroundColor": "BlanchedAlmond"
     }
   },
   "palette": {
@@ -84,6 +97,7 @@
     "Caramel": "#F1D29A",
     "BlanchedAlmond": "#FFEDCD",
     "Sage": "#ADBC8A",
-    "CadetBlue": "#64A8A2"
+    "CadetBlue": "#64A8A2",
+    "Red": "#EA4B67"
   }
 }
